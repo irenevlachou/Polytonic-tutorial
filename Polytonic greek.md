@@ -145,21 +145,21 @@ The design of the grave follows the same principal and it is more upright than g
 Perispomeni usually follows the shape of a tilde, but if the typeface is based on the Porson Greek model, then the tilde looks like a inverted breve. In some rare occasions appears straight like a macron.
 
 ![](images/tutorial_Page_09.png)
-![](images/Links/Screenshot 2019-12-01 at 20.54.30.png)
+![](images/Links/Screenshot2019-12-01at20.54.30.png)
 
 typeface: New Hellenic  
 designer: Victor Scholderer (Lanston Monotype Corporation)    
 date: 1927  
 source: Greek Printing Types, 1465-1927: Facsimiles from an exhibition of books illustrating the development of Greek printing shown in the British Museum, 1927
 
-![](images/Links/Screenshot 2019-12-01 at 20.58.14.png)
+![](images/Links/Screenshot2019-12-01at20.58.14.png)
 
 typeface:	Porson Greek  
 designer/punchucutter: Richard Porson, Richard Austin. 
 date: 1808  
 source: Greek Printing Types, 1465-1927: Facsimiles from an exhibition of books illustrating the development of Greek printing shown in the British Museum, 1927
 
-![](images/Links/Screenshot 2019-12-01 at 21.35.40.png)
+![](images/Links/Screenshot2019-12-01at21.35.40.png)
 
 typeface: Αγγελικής (Angelikis)  
 publisher: A. Panagopoulos  
