@@ -40,49 +40,111 @@ https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Gl
 Polytonic greek is consisted by the addition of 96 Upper case
 ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏἘἙἚἛἜἝῈΈἨἩἪἫἬἭἮἯῊΉῌᾘᾙᾚᾛᾜᾝᾞᾟἸἹἺἻἼἽἾἿῚΊῘῙὈὉὊὋὌὍῸΌῬὙὛὝὟῪΎῨῩὨὩὪὫὬὭὮὯῺΏῼᾨᾩᾪᾫᾬᾭᾮᾯ
 
+![](images/tutorial_Page_01.png)
+
 ### lower case:
 and 121 lower case composite glyphs.
 ἀἁἂἃἄἅἆἇὰάᾰᾱᾶᾳᾲᾴᾀᾁᾂᾃᾄᾅᾆᾇᾷἐἑἒἓἔἕὲέἠἡἢἣἤἥἦἧὴήῆῃῂῄᾐᾑᾒᾓᾔᾕᾖᾗῇἰἱἲἳἴἵἶἷὶίῐῑῖῒΐῗὀὁὂὃὄὅὸόῥῤὑὓὕὗὺύῠῡὐὒὔὖῦῢΰῧὠὡὢὣὤὥὦὧὼώῶῳῲῴᾠᾡᾢᾣᾤᾥᾦᾧῷ
+
+![](images/tutorial_Page_02.png)
+![](images/tutorial_Page_03.png)
 
 These glyphs are build by monotonic upper and lower case combined with accents, breathings and other diacritics.
 These are:
 
 ### accents:
 - ´ oxia, U1FFD
+
+![](images/tutorial_Page_04.png)
+
+
 - ` varia, U1FEF
+
+![](images/tutorial_Page_06.png)
+
+
 - ῀ perispomeni, U1FC0
+
+![](images/tutorial_Page_08.png)
+
+
+
 and macron and breve (vrachy) that we take from the latin set
 
 ### breathings:
 - ᾿ psili, U1FBF
+
+![](images/tutorial_Page_10.png)
+
 - ῾ dasia, U1FFE
+
+![](images/tutorial_Page_11.png)
+
 
 
 ### combinations:
 - ῁ dialytica perispomeni, U1FC1
+
+![](images/tutorial_Page_12.png)
+
 - ῍ psili varia, U1FCD
+
+![](images/tutorial_Page_13.png)
+
 - ῎ psili oxia, U1FCE
+
+![](images/tutorial_Page_14.png)
+
 - ῏ psili perispomeni, U1FCF
+
+![](images/tutorial_Page_15.png)
+
 - ῝ dasia varia, U1FDD
+
+![](images/tutorial_Page_16.png)
+
 - ῞ dasia oxia, U1FDE
+
+![](images/tutorial_Page_17.png)
+
+
 - ῟ dasia perispomeni, U1FDF
+
+![](images/tutorial_Page_18.png)
+
 
 ### other diacritics:
 - ͺ ypogegrammeni (iota subscript), U037A
+
+![](images/tutorial_Page_20.png)
+
 - ι prosgegrammeni (iota adscript), U1FBE
 https://en.wikipedia.org/wiki/Iota_subscript#Usage
+
+![](images/tutorial_Page_21.png)
+![](images/tutorial_Page_22.png)
+
 ### punctuation:
 - ᾽ koronis, U1FBD
 https://en.wikipedia.org/wiki/Smooth_breathing#Coronis
+
+![](images/tutorial_Page_19.png)
+
 
 ## design of diacritics
 
 ### design of accents
 The design of the polytonic accents are pretty straight forward. The oxia is identical with tonos from monotonic greek. That means that usually is a bit more upright than the latin acute.
 
+![](images/tutorial_Page_05.png)
+
 The design of the grave follows the same principal and it is more upright than grave.
 
+![](images/tutorial_Page_07.png)
+
 Perispomeni usually follows the shape of a tilde, but if the typeface is based on the Porson Greek model, then the tilde looks like a inverted breve. In some rare occasions appears straight like a macron.
+
+![](images/tutorial_Page_09.png)
 
 Greek macron is identical to latin one.
 Greek vrachy is identical to breve.
@@ -107,6 +169,9 @@ Before we talk about the form that these two marks take, we should clear up what
 The positioning of the accents and the breathings and their combinations is usually at the optical centre of the lower case glyphs. The bottom tip or the middle of the pair of these diacritics marks should "point" at the centre of the glyph.
 In the upper case, the diacritics are hanging on the front of the glyphs like tonos in monotonic. The diacritics in upper case are not optional and the positioning at the front is not a stylistic preference.
 
+![](images/tutorial_Page_23.png)
+![](images/tutorial_Page_24.png)
+
 ### positioning of ypogegrammeni and prosgegrammeni
 The ypogrammeni is placed always at the centre of the glyphs, lower and upper case, with the exception of the lower case eta that is aligned as much as possible with the left vertical stem of the letter.
 Prosgegrammeni, with a use only in upper case, is always placed on the right side of the letter, in a distance to represent the natural distance that a lower case iota would have after a capital letter.
@@ -120,6 +185,10 @@ Koronis or crash is a punctuation mark used to symbolise a type of contraction i
 Normally small caps in Greek behave identical to all capitals setting. This means that all the substitution of polytonic small caps glyphs are exactly the same as the monotonic ones.
 All accents are omitted other than the dieresis. 
 However, there are cases that we want to add a stylistic set of accented small caps. In that case the small caps will have to behave like the lower case and all the accents and breathings need to go on the top of the glyph.
+
+![](images/tutorial_Page_25.png)
+![](images/tutorial_Page_26.png)
+![](images/tutorial_Page_27.png)
 
 ### considerations
 In general accented small cap might look strange to a native reader with the first look. The examples of accented uppercase lookalike shapes in Greek typography are rare so the use of them should be as a stylistic option instead of a mainstream usage.
