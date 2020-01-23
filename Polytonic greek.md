@@ -1,4 +1,4 @@
-# Polytonic greek
+# Polytonic Greek
 
 ## Introduction
 This tutorial explains how to add Polytonic characters to an existing Monotonic Greek typeface. (In terms of the [Google Fonts Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek) defined in 2017, we explain how to extend a Greek Core set into Greek Plus set.)
@@ -33,16 +33,16 @@ The Greek Plus set omits Greek archaic numerals, which are not used at all in mo
 
 basic Polytonic set is primarily because I want to promote the expansion of Greek character sets to Polytonic. Adding polytonic to a pre-existing greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully many a bit more modern looking than Didot :)
 
-## character set
+## Character set
 https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek
 
-### upper case:
+### Upper case:
 Polytonic greek is consisted by the addition of 96 Upper case
 ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏἘἙἚἛἜἝῈΈἨἩἪἫἬἭἮἯῊΉῌᾘᾙᾚᾛᾜᾝᾞᾟἸἹἺἻἼἽἾἿῚΊῘῙὈὉὊὋὌὍῸΌῬὙὛὝὟῪΎῨῩὨὩὪὫὬὭὮὯῺΏῼᾨᾩᾪᾫᾬᾭᾮᾯ
 
 ![](images/tutorial_Page_01.png)
 
-### lower case:
+### Lower case:
 and 121 lower case composite glyphs.
 ἀἁἂἃἄἅἆἇὰάᾰᾱᾶᾳᾲᾴᾀᾁᾂᾃᾄᾅᾆᾇᾷἐἑἒἓἔἕὲέἠἡἢἣἤἥἦἧὴήῆῃῂῄᾐᾑᾒᾓᾔᾕᾖᾗῇἰἱἲἳἴἵἶἷὶίῐῑῖῒΐῗὀὁὂὃὄὅὸόῥῤὑὓὕὗὺύῠῡὐὒὔὖῦῢΰῧὠὡὢὣὤὥὦὧὼώῶῳῲῴᾠᾡᾢᾣᾤᾥᾦᾧῷ
 
@@ -52,7 +52,7 @@ and 121 lower case composite glyphs.
 These glyphs are build by monotonic upper and lower case combined with accents, breathings and other diacritics.
 These are:
 
-### accents:
+### Accents:
 - ´ oxia, U1FFD
 
 ![](images/tutorial_Page_04.png)
@@ -71,7 +71,7 @@ These are:
 
 and macron and breve (vrachy) that we take from the latin set
 
-### breathings:
+### Breathings:
 - ᾿ psili, U1FBF
 
 ![](images/tutorial_Page_10.png)
@@ -82,7 +82,7 @@ and macron and breve (vrachy) that we take from the latin set
 
 
 
-### combinations:
+### Combinations:
 - ῁ dialytica perispomeni, U1FC1
 
 ![](images/tutorial_Page_12.png)
@@ -113,7 +113,7 @@ and macron and breve (vrachy) that we take from the latin set
 ![](images/tutorial_Page_18.png)
 
 
-### other diacritics:
+### Other diacritics:
 - ͺ ypogegrammeni (iota subscript), U037A
 
 ![](images/tutorial_Page_20.png)
@@ -124,21 +124,21 @@ https://en.wikipedia.org/wiki/Iota_subscript#Usage
 ![](images/tutorial_Page_21.png)
 ![](images/tutorial_Page_22.png)
 
-### punctuation:
+### Punctuation:
 - ᾽ koronis, U1FBD
 https://en.wikipedia.org/wiki/Smooth_breathing#Coronis
 
 ![](images/tutorial_Page_19.png)
 
 
-## design of diacritics
+## Design of diacritics
 
-### design of accents
+### Design of accents
 The design of the polytonic accents are pretty straight forward. The oxia is identical with tonos from monotonic greek. That means that usually is a bit more upright than the latin acute.
 
 ![](images/tutorial_Page_05.png)
 
-The design of the grave follows the same principal and it is more upright than grave.
+The design of the grave follows the same principle and it is more upright than grave.
 
 ![](images/tutorial_Page_07.png)
 
@@ -170,7 +170,7 @@ Greek macron is identical to latin one.
 Greek vrachy is identical to breve.
 
 
-### design of breathings
+### Design of breathings
 
 Psili or smooth breathing takes the shape of a mirrored "c" shape or a quote/comma. Usually we prefer to keep it in the same dimensions and colour as the accents.
 
@@ -178,26 +178,26 @@ Dasia or rough breathing takes the shape of a "c" shape or a mirrored quote/comm
 
 Both psili and dasia are placed over the initial vowel, or over the second vowel of an initial diphthong. So we can never find them in the middle of the world (useful tip for kerning).
 
-### design of combinations
+### Design of combinations
 The rest of the diacritics are combinations of accents, breathings and dieresis. Depending on the style of the font these are positioned closer or more apart between them.
 
-### design of ypogegrammeni and prosgegrammeni
+### Design of ypogegrammeni and prosgegrammeni
 Before we talk about the form that these two marks take, we should clear up what these marks are.
 ************
 
-### positioning of accents and breathings
+### Positioning of accents and breathings
 The positioning of the accents and the breathings and their combinations is usually at the optical centre of the lower case glyphs. The bottom tip or the middle of the pair of these diacritics marks should "point" at the centre of the glyph.
 In the upper case, the diacritics are hanging on the front of the glyphs like tonos in monotonic. The diacritics in upper case are not optional and the positioning at the front is not a stylistic preference.
 
 ![](images/tutorial_Page_23.png)
 ![](images/tutorial_Page_24.png)
 
-### positioning of ypogegrammeni and prosgegrammeni
+### Positioning of ypogegrammeni and prosgegrammeni
 The ypogrammeni is placed always at the centre of the glyphs, lower and upper case, with the exception of the lower case eta that is aligned as much as possible with the left vertical stem of the letter.
 Prosgegrammeni, with a use only in upper case, is always placed on the right side of the letter, in a distance to represent the natural distance that a lower case iota would have after a capital letter.
 
 
-### design of koronis
+### Design of koronis
 
 Koronis or crash is a punctuation mark used to symbolise a type of contraction in which two vowels or diphthongs merge into one new vowel or diphthong. The shape that takes is exactly like psili mark. In modern Greek koronis is obsolete.
 
@@ -210,18 +210,14 @@ However, there are cases that we want to add a stylistic set of accented small c
 ![](images/tutorial_Page_26.png)
 ![](images/tutorial_Page_27.png)
 
-### considerations
+### Considerations
 In general accented small cap might look strange to a native reader with the first look. The examples of accented uppercase lookalike shapes in Greek typography are rare so the use of them should be as a stylistic option instead of a mainstream usage.
 
-### opentype features
+### Opentype features
 Polytonic greek doesn't have extra opentype features compare to a monotonic greek font. Apart from when we want the font to deal with the subscript to adscript transformation for the uppercase and when are font has the option of accented small caps.
 The most common way to deal with both issues is to introduce stylistic sets features that the necessary rules will apply.
 
-## conclusions
-Polytonic edition to contemporary typeface isn't something that designers find necessary most of the times. That leaves us with a very small amount of choices when one typesets polytonic text and usually these choices are either based on the French style or Porsonic models, and rarely something more contemporary than 19th century style typefaces. 
-Hope of this tutorial is to demystify the complexity of the set and simplify the process as possible so we can see in the future more support in our fonts.
-
-## resources
+## Resources
 - [GF Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek)
 - [Greek diacritics](https://en.wikipedia.org/wiki/Greek_diacritics)
 - [Re-introduction of the Polytonic System](http://www.polytoniko.org/index.php?newlang=en)
