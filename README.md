@@ -17,7 +17,7 @@ This tutorial covers:
 
 Polytonic Greek is the system of Greek orthography, using multiple diacritical marks, that for centuries was the standard for writing modern Greek. In January 1982 the Greek government declared a new official orthography, a “monotonic” system that retained only two diacritics. The current official standard uses the acute accent, generally referred to as tonos in the context of Greek, and the dieresis.
 
-Despite the official change, and the vast majority of new Greek publishing being monotonic, polytonic orthography is a valid option for modern Greek typesetting — if not government approved. A daily newspaper, [Ἑστία](https://el.wikipedia.org/wiki/Εστία_(εφημερίδα)) uses polytonic, traditional and religious publications are often published in polytonic, and activists campaign for its return more widely. Thus, as well as older texts, modern texts exist and are being produced that using polytonic characters that require polytonic fonts, and so a polytonic set is strongly recommended for system fonts and other fonts expected to perform on a wide variety of texts.
+Despite the official change, and the vast majority of new Greek publishing being monotonic, polytonic orthography is a valid option for modern Greek typesetting. A daily newspaper, [Ἑστία](https://el.wikipedia.org/wiki/Εστία_(εφημερίδα)) uses polytonic, traditional and religious publications are often published in polytonic. Thus, as well as older texts, modern texts exist and are being produced that using polytonic characters that require polytonic fonts, and so a polytonic set is strongly recommended for system fonts and other fonts expected to perform on a wide variety of texts.
 
 More background information can be found in the Resources section below.
 
@@ -26,12 +26,8 @@ More background information can be found in the Resources section below.
 This set adds all the accented letters, lower case and upper case, and the accents+breathings necessary to build these composites. It's basically what Unicode defines as “Greek Extended” with the addition of forgotten iota subscript (uni037A).
 http://www.unicode.org/charts/PDF/U1F00.pdf
 
-In this category I avoid adding the archaic numerals. The reason I'm doing that is this:
-The specific archaic numerals, even if they aren't many, require special attention and research on behalf of the designer. These numerals are rarely used and most of the designers don't even know how to typeset them, hence the existing examples of these characters are, most of the time, really poorly designed. 
-
-The Greek Plus set omits Greek archaic numerals, which are not used at all in modern Greek. They can be difficult to design, and 
-
-basic Polytonic set is primarily because I want to promote the expansion of Greek character sets to Polytonic. Adding polytonic to a pre-existing greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully many a bit more modern looking than Didot :)
+The Greek Plus set omits Greek archaic letters and archaic numerals that one usually fns in older Polytonic Greek fonts. These are: the archaic letters: diggama, textual koppa and the numerals: stigma, numeric koppa, sampi, all in both upper case and lower case form. The specific archaic characters and numerals, even if they aren't many, require special attention and research on behalf of the designer. These characters are rarely used and most of the designers don't even know how to typeset them, hence the existing examples of these characters are, most of the time, really poorly designed. 
+Adding polytonic to a pre-existing Greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully few a bit more modern looking than Didot :)
 
 ## Character set
 https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek
@@ -182,8 +178,14 @@ Both psili and dasia are placed over the initial vowel, or over the second vowel
 The rest of the diacritics are combinations of accents, breathings and dieresis. Depending on the style of the font these are positioned closer or more apart between them.
 
 ### Design of ypogegrammeni and prosgegrammeni
-Before we talk about the form that these two marks take, we should clear up what these marks are.
-************
+Before we talk about the form that these two marks take, we should clear up what these marks are and how they supposed to be used. The mute iota is a character that can be combined with the vowels α, η, ω (alpha, eta, omega). It can take two forms, under the glyph and next to a glyph, thus the names adscript (next to:prosgegrammeni) and subscript (under: ypogegrammeni).
+The positioning of the mute iota when it comes to lowercase, is always under, so we have one combinations of lowercase with subscript iota (uni0345). When it comes to uppercase, the mute iota can be centred under the uppercase glyphs or on the side of it.
+In an article by Yannis Haralambous titled "From Unicode to Typography, a Case Study: the Greek Script" at the chapter 1.3.3 we find the following information:
+> "There is some confusion about the uppercase Α Η Ω with mute iota. The glyphs displayed in the Uni­code book show the subscript iota below these letters ; on the other hand, in the name of these characters the mute iota is called prosgegrameni ; this is a neologism meaning "written next to" (while ipogegrameni means "written under"). This does not agree with the glyphs, where the mute iota is indeed placed under, and not next to the letter. "
+This is not the case today, the Unicode block has been updated and the "official" form of the mute iota is next to the upper case glyphs (adscript). Sometimes the glyphs adscript (uni1FBE) is replaced by a full size iota.
+Nevertheless the traditional typographic form of the mute iota for the uppercase glyphs and the most common used in Greece is under the glyph (subscript), so we usually build our default Unicode blocks that contain upper case+mute iota with subscripts (uni0345) instead of adscript (uni1FBE). Upper case glyphs with adscript are coded usually as stylistic sets.
+ 
+
 
 ### Positioning of accents and breathings
 The positioning of the accents and the breathings and their combinations is usually at the optical centre of the lower case glyphs. The bottom tip or the middle of the pair of these diacritics marks should "point" at the centre of the glyph.
