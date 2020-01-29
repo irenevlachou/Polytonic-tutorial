@@ -184,7 +184,7 @@ In an article by Yannis Haralambous titled "From Unicode to Typography, a Case S
 > "There is some confusion about the uppercase Α Η Ω with mute iota. The glyphs displayed in the Uni­code book show the subscript iota below these letters ; on the other hand, in the name of these characters the mute iota is called prosgegrameni ; this is a neologism meaning "written next to" (while ipogegrameni means "written under"). This does not agree with the glyphs, where the mute iota is indeed placed under, and not next to the letter. "
 This is not the case today, the Unicode block has been updated and the "official" form of the mute iota is next to the upper case glyphs (adscript). Sometimes the glyphs adscript (uni1FBE) is replaced by a full size iota.
 Nevertheless the traditional typographic form of the mute iota for the uppercase glyphs and the most common used in Greece is under the glyph (subscript), so we usually build our default Unicode blocks that contain upper case+mute iota with subscripts (uni0345) instead of adscript (uni1FBE). Upper case glyphs with adscript are coded usually as stylistic sets.
- 
+The design of the ypogegrammeni (subscript) is usually a small iota and in some occasions just as a single straight quote mark. The prosgegrammeni, can be a full size iota or a iota that doesn't quite reach the x-height. Interesting is the example from Haralambous paper, that shows examples of prosgegrammeni placed next to the uppercase glyphs the position of subscript number. 
 
 
 ### Positioning of accents and breathings
