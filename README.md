@@ -37,13 +37,20 @@ https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Gl
 ### Upper case:
 Polytonic greek is consisted by the addition of 96 Upper case
 
-ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏ  \
-ἘἙἚἛἜἝῈΈ  \
-ἨἩἪἫἬἭἮἯῊΉῌᾘᾙᾚᾛᾜᾝᾞᾟ  \
-ἸἹἺἻἼἽἾἿῚΊῘῙ  \
-ὈὉὊὋὌὍῸΌ  \
-Ῥ  \
-ὙὛὝὟῪΎῨῩ  \
+ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏ
+
+ἘἙἚἛἜἝῈΈ
+
+ἨἩἪἫἬἭἮἯῊΉῌᾘᾙᾚᾛᾜᾝᾞᾟ
+
+ἸἹἺἻἼἽἾἿῚΊῘῙ
+
+ὈὉὊὋὌὍῸΌ
+
+Ῥ
+
+ὙὛὝὟῪΎῨῩ
+
 ὨὩὪὫὬὭὮὯῺΏῼᾨᾩᾪᾫᾬᾭᾮᾯ
 
 ![](images/tutorial_Page_01.png)
@@ -51,13 +58,20 @@ Polytonic greek is consisted by the addition of 96 Upper case
 ### Lower case:
 and 121 lower case composite glyphs
 
-ἀἁἂἃἄἅἆἇὰάᾰᾱᾶᾳᾲᾴᾀᾁᾂᾃᾄᾅᾆᾇᾷ  \
-ἐἑἒἓἔἕὲέ  \
-ἠἡἢἣἤἥἦἧὴήῆῃῂῄᾐᾑᾒᾓᾔᾕᾖᾗῇ  \
-ἰἱἲἳἴἵἶἷὶίῐῑῖῒΐῗ  \
-ὀὁὂὃὄὅὸό  \
-ῥῤ  \
-ὑὓὕὗὺύῠῡὐὒὔὖῦῢΰῧ  \
+ἀἁἂἃἄἅἆἇὰάᾰᾱᾶᾳᾲᾴᾀᾁᾂᾃᾄᾅᾆᾇᾷ 
+
+ἐἑἒἓἔἕὲέ  
+
+ἠἡἢἣἤἥἦἧὴήῆῃῂῄᾐᾑᾒᾓᾔᾕᾖᾗῇ  
+
+ἰἱἲἳἴἵἶἷὶίῐῑῖῒΐῗ  
+
+ὀὁὂὃὄὅὸό  
+
+ῥῤ  
+
+ὑὓὕὗὺύῠῡὐὒὔὖῦῢΰῧ  
+
 ὠὡὢὣὤὥὦὧὼώῶῳῲῴᾠᾡᾢᾣᾤᾥᾦᾧῷ
 
 ![](images/tutorial_Page_02.png)
