@@ -32,7 +32,7 @@ The Greek Plus set omits Greek archaic letters and archaic numerals that one oft
 Adding polytonic to a pre-existing Greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully few a bit more modern looking than Didot :)
 
 ## Character set
-https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek
+[Google’s Greek Sets](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek)
 
 ### Upper case:
 Polytonic greek is consisted by the addition of 96 Upper case
