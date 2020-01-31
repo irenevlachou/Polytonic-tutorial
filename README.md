@@ -1,4 +1,4 @@
-# Polytonic Greek
+# Polytonic Greek: a guide for type designers
 
 ## Introduction
 This tutorial explains how to add Polytonic characters to an existing Monotonic Greek typeface. In terms of the [Google Fonts Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek) defined in 2017, I explain how to extend a Greek Core set into Greek Plus set.
@@ -36,13 +36,29 @@ https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Gl
 
 ### Upper case:
 Polytonic greek is consisted by the addition of 96 Upper case
-ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏἘἙἚἛἜἝῈΈἨἩἪἫἬἭἮἯῊΉῌᾘᾙᾚᾛᾜᾝᾞᾟἸἹἺἻἼἽἾἿῚΊῘῙὈὉὊὋὌὍῸΌῬὙὛὝὟῪΎῨῩὨὩὪὫὬὭὮὯῺΏῼᾨᾩᾪᾫᾬᾭᾮᾯ
+
+ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏ  \
+ἘἙἚἛἜἝῈΈ  \
+ἨἩἪἫἬἭἮἯῊΉῌᾘᾙᾚᾛᾜᾝᾞᾟ  \
+ἸἹἺἻἼἽἾἿῚΊῘῙ  \
+ὈὉὊὋὌὍῸΌ  \
+Ῥ  \
+ὙὛὝὟῪΎῨῩ  \
+ὨὩὪὫὬὭὮὯῺΏῼᾨᾩᾪᾫᾬᾭᾮᾯ
 
 ![](images/tutorial_Page_01.png)
 
 ### Lower case:
-and 121 lower case composite glyphs.
-ἀἁἂἃἄἅἆἇὰάᾰᾱᾶᾳᾲᾴᾀᾁᾂᾃᾄᾅᾆᾇᾷἐἑἒἓἔἕὲέἠἡἢἣἤἥἦἧὴήῆῃῂῄᾐᾑᾒᾓᾔᾕᾖᾗῇἰἱἲἳἴἵἶἷὶίῐῑῖῒΐῗὀὁὂὃὄὅὸόῥῤὑὓὕὗὺύῠῡὐὒὔὖῦῢΰῧὠὡὢὣὤὥὦὧὼώῶῳῲῴᾠᾡᾢᾣᾤᾥᾦᾧῷ
+and 121 lower case composite glyphs
+
+ἀἁἂἃἄἅἆἇὰάᾰᾱᾶᾳᾲᾴᾀᾁᾂᾃᾄᾅᾆᾇᾷ  \
+ἐἑἒἓἔἕὲέ  \
+ἠἡἢἣἤἥἦἧὴήῆῃῂῄᾐᾑᾒᾓᾔᾕᾖᾗῇ  \
+ἰἱἲἳἴἵἶἷὶίῐῑῖῒΐῗ  \
+ὀὁὂὃὄὅὸό  \
+ῥῤ  \
+ὑὓὕὗὺύῠῡὐὒὔὖῦῢΰῧ  \
+ὠὡὢὣὤὥὦὧὼώῶῳῲῴᾠᾡᾢᾣᾤᾥᾦᾧῷ
 
 ![](images/tutorial_Page_02.png)
 ![](images/tutorial_Page_03.png)
