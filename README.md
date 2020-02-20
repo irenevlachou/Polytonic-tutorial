@@ -260,6 +260,7 @@ Planned so far (suggestions are welcome):
 1. OT code for dealing with case conversion for accented caps or small caps while retaining the disjunctive Eta.
 2. A report on the issues of case conversion for basic monotonic and polytonic Greek in operating systems, browsers and applications.
 3. Spacing of accented caps: an endless debate, hanging or no-hanging (half hanging?).
+4. Keyboard layouts and the unreachable characters.
 4. Spacing and kerning: rules, groups and test documents.
 5. Font application support of automatic building of composites for Polytonic Greek.
 6. Samples of old specimens showing Polytonic fonts with some special flair.
