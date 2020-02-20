@@ -214,7 +214,7 @@ In the upper case, the diacritics are hanging on the front of the glyphs like to
 
 ![](images/tutorial23.png)
 ![](images/tutorial24.png)
-![](images/specimens/PraktikiGeoponia.jpg)
+
 
 ### Positioning of ypogegrammeni and prosgegrammeni
 The ypogrammeni is placed always at the centre of the glyphs, lower and upper case, with the exception of the lower case eta that is aligned as much as possible with the left vertical stem of the letter.
