@@ -3,7 +3,7 @@
 ## Introduction
 This tutorial explains how to add Polytonic characters to an existing Monotonic Greek typeface. In terms of the [Google Fonts Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek) defined in 2017, I explain how to extend a Greek Core set into Greek Plus set.
 
-I hope to demystify polytonic type design and encourage type designers to add polytonic to their typefaces. Designing a small number of diacritics and following some positioning rules hopefully will make the expansion of greek set accessible more to type designers.
+I hope to demystify polytonic type design and encourage type designers to add polytonic to their typefaces. Designing a small number of diacritics and following some positioning rules hopefully will make the expansion of Greek set accessible more to type designers.
 Adding polytonic Greek in contemporary typefaces has not been a priority today and that leaves us with a very few choices when typesetting polytonic text and usually these choices are either based on the French style or Porsonic models, and rarely something more contemporary than 19th century style typefaces. 
 
 This tutorial covers:
@@ -29,13 +29,13 @@ This set adds all the accented letters, lower case and upper case, and the accen
 http://www.unicode.org/charts/PDF/U1F00.pdf
 
 The Greek Plus set omits Greek archaic letters and archaic numerals that one often finds in older Polytonic Greek fonts. These are: the archaic letters: digamma, textual koppa and the numerals: stigma, numeric koppa, sampi, all in both upper case and lower case form. The specific archaic characters and numerals, even if not many, require special attention and research on behalf of the designer. These characters are rarely used and the existing examples of these characters are often poorly designed. 
-Adding polytonic to a pre-existing Greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully few a bit more modern looking than Didot :)
+Adding polytonic to a pre-existing Greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic Greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully few a bit more modern looking than Didot :)
 
 ## Character set
 [Google’s Greek Sets](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek)
 
 ### Upper case:
-Polytonic greek is consisted by the addition of 96 Upper case
+Polytonic Greek is consisted by the addition of 96 Upper case
 
 ἈἉἊἋἌἍἎἏᾺΆᾸᾹᾼᾈᾉᾊᾋᾌᾍᾎᾏ  
 ἘἙἚἛἜἝῈΈ  
@@ -148,15 +148,16 @@ https://en.wikipedia.org/wiki/Smooth_breathing#Coronis
 ## Design of diacritics
 
 ### Design of accents
-The design of the polytonic accents are pretty straightforward. The oxia is identical with tonos from monotonic greek. That means that usually is a bit more upright than the latin acute.
+The design of the polytonic accents are pretty straightforward. The oxia is identical with tonos from monotonic Greek. That means that usually is a bit more upright than the latin acute.
 
 ![](images/tutorial5.png)
 
-The design of the grave follows the same principle and it is more upright than grave.
+The design of the varia follows the same principle and it is more upright than grave. Suggestion: it can be a mirrored oxia.
+
 
 ![](images/tutorial7.png)
 
-Perispomeni usually follows the shape of a tilde, but if the typeface is based on the Porson Greek model, then the tilde looks like an inverted breve. In some rare occasions it appears straight like a macron.
+Perispomeni usually follows the shape of a tilde, but if the typeface is based on the Porson Greek model, then perispomeni looks like an inverted breve. In some rare occasions it appears straight like a macron.
 
 ![](images/tutorial9.png)
 ![](images/specimens/NewHellenic.png)
@@ -196,10 +197,11 @@ Both psili and dasia are placed over the initial vowel, or over the second vowel
 The rest of the diacritics are combinations of accents, breathings and dieresis. Depending on the style of the font these are positioned closer or more apart between them.
 
 ### Design of ypogegrammeni and prosgegrammeni
-Before we talk about the form that these two marks take, we should clear up what these marks are and how they supposed to be used. The mute iota is a character that can be combined with the vowels `α, η, ω` (alpha, eta, omega). It can take two forms, under the glyph and next to a glyph, thus the names adscript (next to:prosgegrammeni) and subscript (under: ypogegrammeni).
-The positioning of the mute iota when it comes to lowercase, is always under, so we have one combinations of lowercase with subscript iota (uni0345). When it comes to uppercase, the mute iota can be centred under the uppercase glyphs or on the side of it.
+Before we talk about the form that these two marks take, we should clear up what these marks are and how they are supposed to be used. The mute iota is a character that can be combined with the vowels `α, η, ω` (alpha, eta, omega). It can take two forms, under the glyph and next to a glyph, thus the names adscript (next to:prosgegrammeni) and subscript (under: ypogegrammeni).
+The positioning of the mute iota when it comes to lowercase, is always under, so we have one combination of lowercase with subscript iota (uni0345). When it comes to uppercase, the mute iota can be centred under the uppercase glyphs or on the side of it.
 In an article by Yannis Haralambous titled "From Unicode to Typography, a Case Study: the Greek Script" at the chapter 1.3.3 we find the following information:
-> "There is some confusion about the uppercase Α Η Ω with mute iota. The glyphs displayed in the Uni­code book show the subscript iota below these letters ; on the other hand, in the name of these characters the mute iota is called prosgegrameni ; this is a neologism meaning "written next to" (while ipogegrameni means "written under"). This does not agree with the glyphs, where the mute iota is indeed placed under, and not next to the letter. "
+> *"There is some confusion about the uppercase Α Η Ω with mute iota. The glyphs displayed in the Uni­code book show the subscript iota below these letters ; on the other hand, in the name of these characters the mute iota is called prosgegrameni ; this is a neologism meaning "written next to" (while ipogegrameni means "written under"). This does not agree with the glyphs, where the mute iota is indeed placed under, and not next to the letter. "*
+
 This is not the case today, the Unicode block has been updated and the "official" form of the mute iota is next to the upper case glyphs (adscript). Sometimes the glyphs adscript (uni1FBE) is replaced by a full size iota.
 The design of the ypogegrammeni (subscript) is usually a small iota and in some occasions just as a single straight quote mark. The prosgegrammeni, can be a full size iota or a iota that doesn't quite reach the x-height. Interesting is the example from Haralambous paper, that shows examples of prosgegrammeni placed next to the uppercase glyphs the position of subscript number. 
 
@@ -233,11 +235,11 @@ However, there are cases that we want to add a stylistic set of accented small c
 ![](images/tutorial27.png)
 
 ### Considerations
-In general accented small cap might look strange to a native reader at first site. The examples of accented uppercase lookalike shapes in Greek typography are rare so the use of them should be as a stylistic option instead of a mainstream usage.
+In general accented small caps might look strange to a native reader. The examples of accented uppercase lookalike shapes in Greek typography are rare so the use of them should be as a stylistic option instead of a mainstream usage.
 
 ### OpenType features
-Polytonic greek doesn't have extra OpenType features compare to a monotonic greek font. Apart from when we want the font to deal with the subscript to adscript transformation for the uppercase and when are font has the option of accented small caps.
-The most common way to deal with both issues is to introduce stylistic sets features that the necessary rules will apply.
+Polytonic Greek doesn't have extra OpenType features compared with a monotonic Greek font. Apart from when we want the font to deal with the subscript to adscript transformation for the uppercase and when the font has the option of accented small caps.
+The most common way to deal with both issues is to introduce stylistic set features that the necessary rules will apply.
 
 ## Resources
 - [GF Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek)
@@ -250,10 +252,25 @@ The most common way to deal with both issues is to introduce stylistic sets feat
 - [Guidelines and Suggested Amendments to the Greek Unicode Tables](https://hal.archives-ouvertes.fr/hal-02112005/document)
 - [From Unicode to Typography. Greek script](https://b-ok.org/book/438869/c0ec1b/?_ir=1)
 
+## Work in progress
 
-## Acknowledgement
+This tutorial will expand on several topics. Some of them will be overlapping with Monotonic orthography rules and might be at a separate tutorial. We'll see :)
+
+Planned so far (suggestions are welcome):
+1. OT code for dealing with case conversion for accented caps or small caps while retaining the disjunctive Eta.
+2. A report on the issues of case conversion for basic monotonic and polytonic Greek in operating systems, browsers and applications.
+3. Spacing of accented caps: an endless debate, hanging or no-hanging (half hanging?).
+4. Spacing and kerning: rules, groups and test documents.
+5. Font application support of automatic building of composites for Polytonic Greek.
+6. Samples of old specimens showing Polytonic fonts with some special flair.
+7. List of available (Unicode preferably!) Polytonic fonts.
+
+## Acknowledgements
+
+My friends and colleagues [Natalia Qadreh](https://gr.linkedin.com/in/nataliaqadreh), [Kostas Bartsokas](https://www.kostasbartsokas.com), [Gerry Leonidas](https://leonidas.net), [Yannis Haralambous](https://www.imt-atlantique.fr/en/person/yannis-haralambous) and [Thomas Linard](https://github.com/thlinard) for their sharp eyes and great suggestions. 
 
 This project was supported by [Google Fonts](https://fonts.google.com).
+
 Primary font for polytonic samples: [Colvert Greek](https://typographies.fr/N/colvert/colvert.html) by the author :)
 
 ## License
@@ -261,6 +278,8 @@ Primary font for polytonic samples: [Colvert Greek](https://typographies.fr/N/co
 by Irene Vlachou 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+
+
 
 
 
