@@ -3,7 +3,7 @@
 ## Introduction
 This tutorial explains how to add Polytonic characters to an existing Monotonic Greek typeface. In terms of the [Google Fonts Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek) defined in 2017, I explain how to extend a Greek Core set into Greek Plus set.
 
-I hope to demystify polytonic type design and encourage type designers to add polytonic to their typefaces. Designing a small number of diacritics and following some positioning rules hopefully will make the expansion of Greek set accessible more to type designers.
+I hope to demystify polytonic type design and encourage type designers to add polytonic to their typefaces. Designing a small number of diacritics and following some positioning rules hopefully will make the expansion of the Greek set more accessible to type designers.
 Adding polytonic Greek in contemporary typefaces has not been a priority today and that leaves us with a very few choices when typesetting polytonic text and usually these choices are either based on the French style or Porsonic models, and rarely something more contemporary than 19th century style typefaces. 
 
 This tutorial covers:
@@ -235,7 +235,7 @@ However, there are cases that we want to add a stylistic set of accented small c
 ![](images/tutorial27.png)
 
 ### Considerations
-In general accented small caps might look strange to a native reader. The examples of accented uppercase lookalike shapes in Greek typography are rare so the use of them should be as a stylistic option instead of a mainstream usage.
+In general, accented small caps might look strange to a native reader. The examples of accented uppercase lookalike shapes in Greek typography are rare so the use of them should be as a stylistic option instead of a mainstream usage.
 
 ### OpenType features
 Polytonic Greek doesn't have extra OpenType features compared with a monotonic Greek font. Apart from when we want the font to deal with the subscript to adscript transformation for the uppercase and when the font has the option of accented small caps.
