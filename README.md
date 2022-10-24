@@ -1,7 +1,7 @@
 # Polytonic Greek: a guide for type designers
 
 ## Introduction
-This tutorial explains how to add Polytonic characters to an existing Monotonic Greek typeface. In terms of the [Google Fonts Glyph Sets/Greek/](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets/Greek) defined in 2017, I explain how to extend a Greek Core set into Greek Plus set.
+This tutorial explains how to add Polytonic characters to an existing Monotonic Greek typeface. In terms of the [Google Fonts Glyph Sets/Greek/](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Greek) defined in 2017, I explain how to extend a Greek Core set into Greek Plus set.
 
 I hope to demystify polytonic type design and encourage type designers to add polytonic to their typefaces. Designing a small number of diacritics and following some positioning rules hopefully will make the expansion of the Greek set more accessible to type designers.
 Adding polytonic Greek in contemporary typefaces has not been a priority today and that leaves us with a very few choices when typesetting polytonic text and usually these choices are either based on the French style or Porsonic models, and rarely something more contemporary than 19th century style typefaces. 
